@@ -1,0 +1,29 @@
+{
+  "name": "github-issue-label-change-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "probot run ./app.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janpio/github-issue-label-change-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janpio/github-issue-label-change-tracker/issues"
+  },
+  "homepage": "https://github.com/janpio/github-issue-label-change-tracker#readme",
+  "dependencies": {
+    "probot": "^12.2.8"
+  },
+  "devDependencies": {
+    "nock": "^13.2.9",
+    "smee-client": "^1.2.3",
+    "uvu": "^0.5.6"
+  }
+}
